@@ -171,8 +171,9 @@ if submitted:
 pdf.cell(0, 10, "MediRank:", ln=True, align="C")
 pdf.cell(0, 10, "Diagnosis Support Tool Using Euclidean Distance-Based Similarity Analysis", ln=True, align="C")
 
-    pdf.set_font("Arial", '', 11)
-    pdf.cell(0, 8, f"Patient: {patient_name}", ln=True)
+pdf.set_font("Arial", '', 11)
+pdf.cell(0, 8, f"Patient: {patient_name}", ln=True)
+
     pdf.cell(0, 8, f"Doctor: {doctor_name}", ln=True)
     pdf.cell(0, 8, f"Date & Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", ln=True)
     pdf.ln(3)
