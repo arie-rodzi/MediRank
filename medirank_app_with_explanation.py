@@ -168,7 +168,8 @@ if submitted:
 
     pdf.add_page()
     pdf.set_font("Arial", 'B', 14)
-    pdf.cell(0, 10, "MediRank: Diagnosis Support Tool Using Euclidean Distance-Based Similarity Analysis", ln=True, align='C')
+    pdf.cell(0, 10, "MediRank: Diagnosis Support Tool Using", ln=True, align='C')
+    pdf.cell(0, 10, "Euclidean Distance-Based Similarity Analysis", ln=True, align='C')
     pdf.set_font("Arial", '', 11)
     pdf.cell(0, 8, f"Patient: {patient_name}", ln=True)
     pdf.cell(0, 8, f"Doctor: {doctor_name}", ln=True)
