@@ -1,5 +1,6 @@
-streamlit
-pandas
-numpy
-openpyxl
-xlsxwriter
+streamlit==1.35.0
+matplotlib>=3.5
+fpdf==1.7.2
+Pillow>=9.0
+numpy>=1.21
+pandas>=1.3
