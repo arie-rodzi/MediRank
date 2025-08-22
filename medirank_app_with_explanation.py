@@ -7,7 +7,7 @@ from fpdf import FPDF
 from PIL import Image
 import io
 
-st.set_page_config(page_title="MediRank: A Diagnosis Support Tool Using Euclidean Distance-Based Similarity Analysis")
+st.set_page_config(page_title="MediRank: A Diagnosis Support Tool Using Fuzzy Euclidean Distance-Based Similarity Analysis")
 
 st.title("🧠 MediRank: Diagnosis Support Tool Using Euclidean Distance-Based Similarity Analysis")
 
