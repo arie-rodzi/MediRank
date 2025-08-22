@@ -9,7 +9,7 @@ import io
 
 st.set_page_config(page_title="MediRank: A Diagnosis Support Tool Using Fuzzy Euclidean Distance-Based Similarity Analysis")
 
-st.title("🧠 MediRank: Diagnosis Support Tool Using Euclidean Distance-Based Similarity Analysis")
+st.title("🧠 MediRank: Diagnosis Support Tool Using Fuzzy Euclidean Distance-Based Similarity Analysis")
 
 with st.form("diagnosis_form"):
     col1, col2 = st.columns(2)
